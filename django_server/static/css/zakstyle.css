@@ -1,0 +1,34 @@
+
+.div_menu ul {
+    text-align: right;
+}
+
+.div_menu li {
+    font-size: large;
+    padding: 12px;
+    display: inline;
+}
+
+.div_menu a {
+    text-decoration: none;
+    color: gray;
+}
+
+.div_menu a:hover {
+    color: darkorange;
+}
+
+.active a {
+    color: darkorange;
+}
+
+.navigation {
+    height: 240px;
+    background-color: cadetblue;
+}
+
+.content_div {
+    background-color: antiquewhite;
+    border: double;
+}
+

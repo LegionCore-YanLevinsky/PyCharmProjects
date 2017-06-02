@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block h1 %}
+    <h1>About me</h1>
+{% endblock %}
+
+{% block content %}
+    {% include 'inc_text.html' %}
+    {% for card in cards %}
+
+        <table class="mtg_item">
+            <tr>
+                <td>
+                    <img src="{{ card.image.url }}" width="240px" height="320">
+                </td>
+                <td width="400px" valign="top">
+                    <p>{{ card.name }}</p>
+                    {{ card.text }}
+                </td>
+            </tr>
+        </table>
+    {% endfor %}
+
+{% endblock %}

@@ -1,0 +1,32 @@
+div.menu_class ul {
+    padding: 12px;
+    list-style-type: circle;
+    background-color: antiquewhite;
+}
+
+div.menu_class ul li {
+    margin: 12px;
+    display: inline;
+}
+
+.menu_list {
+    list-style-type: circle;
+    background-color: antiquewhite;
+}
+
+.active {
+    border: 4px double;
+    padding: 8px;
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+.mtg_item {
+    vertical-align: top;
+    font-size: large;
+    border: double;
+}
+
+

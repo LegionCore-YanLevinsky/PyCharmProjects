@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Атроника</title>
+    <link rel="stylesheet" href="{% static 'css/zakstyle.css' %}"/>
+</head>
+<body>
+
+<div class="div_menu">
+
+    <a href="{% url 'main:zak' %}"><img src="{% static 'img/atronika_logo.png' %}"></a>
+
+    <ul>
+        <li class="{% if page ==  'zak' %}active{% endif %}">
+            <a href="{% url 'main:zak' %}">HOME</a>
+        </li>
+        <li>
+            <a href="{% url 'main:zak' %}">ABOUT US</a>
+        </li>
+        <li>
+            <a href="{% url 'main:zak' %}">CONTACTS</a>
+        </li>
+    </ul>
+
+</div>
+
+{% block navigation %}
+    <div class="navigation">
+        <h1>aaa</h1>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="content_div">
+        <h1>base content</h1>
+    </div>
+{% endblock %}
+
+</body>
+</html>

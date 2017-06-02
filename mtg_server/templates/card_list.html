@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+    {% include 'inc_paginator.html' %}
+
+    {% for object in object_list %}
+        <div class="card_container">
+            <div>
+                <a href="{% url 'main:item' object.id %}">
+                    <img src="{{ object.image.url }}" width="240px" height="320px">
+                </a>
+            </div>
+            <div>
+                <p>{{ object.name }}</p>
+                {{ object.text }}
+            </div>
+        </div>
+
+    {% endfor %}
+
+    {% include 'inc_paginator.html' %}
+
+{% endblock %}

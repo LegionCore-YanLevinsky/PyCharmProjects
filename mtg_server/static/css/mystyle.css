@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.logo img {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    object-position: 50% 5%;
+}
+
+.navigation ul {
+    margin: 0;
+    text-align: center;
+    background-color: burlywood;
+
+}
+
+.navigation ul li {
+    margin: 8px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgoldenrod;
+}
+
+.active {
+    color: bisque;
+}
+
+.container {
+    width: 100%;
+    display: table;
+    height: 75vh;
+}
+
+.menu {
+    background-color: burlywood;
+    width: 15%;
+    display: table-cell;
+}
+
+.menu ul {
+    padding: 20px;
+    list-style-type: none;
+}
+
+.content {
+    background: url("/static/img/background.jpg") fixed center;
+    vertical-align: top;
+    width: 70%;
+    display: table-cell;
+    border: 1px double;
+}
+
+.card_container {
+    display: table;
+    margin: 20px;
+    background-color: rgba(196, 196, 196, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card_container div {
+    vertical-align: top;
+    display: table-cell;
+}
+
+.login {
+    background-color: burlywood;
+    width: 15%;
+    padding: 16px;
+    display: table-cell;
+}
+
+.reg_form {
+    background-color: bisque;
+    margin: 0 auto;
+    width: 50%;
+    height: 20%;
+}
+
+.reg_form tr {
+    vertical-align: text-top;
+    text-align: left;
+}
+
+.paginator {
+    background-color: rgba(196, 196, 196, 0.7);
+    font-size: larger;
+    margin: 20px auto;
+    text-align: center;
+}

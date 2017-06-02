@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <div>
+        <br>
+        <img src="{{ object.image.url }}" width="240px" height="320px">
+        <h3>{{ object.name }}</h3>
+        <p>{{ object.text }}</p>
+    </div>
+{% endblock %}
