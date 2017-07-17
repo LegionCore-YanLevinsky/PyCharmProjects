@@ -1,0 +1,60 @@
+{% load staticfiles %}
+
+<div class="navbar navbar-static-top">
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navigation-menu navigation-menu-color-blue overlay-menu">
+            <li>
+                <a href="{% url 'main:autopark' %}"
+                   class="{% if page == 'autopark' %}active{% else %}inactive{% endif %}">
+                    АВТОПАРК
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'main:rates' %}"
+                   class="{% if page == 'rates' %}active{% else %}inactive{% endif %}">
+                    ТАРИФЫ</a>
+            </li>
+            <li class="dropdown">
+                <a href="{% url 'main:services' %}"
+                   class="dropdown-toggle {% if page == 'services' %}active{% else %}inactive{% endif %}"
+                   data-toggle="dropdown">
+                    УСЛУГИ
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Аренда авто для юридичеких лиц</a></li>
+                    <li><a href="#">Аренда на сутки</a></li>
+                    <li><a href="#">Аренда без залога</a></li>
+                    <li><a href="#">Долгосрочная аренда</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="{% url 'main:question_answer' %}"
+                   class="{% if page == 'question_answer' %}active{% else %}inactive{% endif %}">ВОПРОС-ОТВЕТ</a>
+            </li>
+            <li>
+                <a href="{% url 'main:routes' %}"
+                   class="{% if page == 'routes' %}active{% else %}inactive{% endif %}">
+                    МАРШРУТЫ
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'main:stocks' %}"
+                   class="{% if page == 'stocks' %}active{% else %}inactive{% endif %}">
+                    АКЦИИ
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'main:news' %}"
+                   class="{% if page == 'news' %}active{% else %}inactive{% endif %}">
+                    НОВОСТИ
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'main:contacts' %}"
+                   class="{% if page == 'contacts' %}active{% else %}inactive{% endif %}">
+                    КОНТАКТЫ
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

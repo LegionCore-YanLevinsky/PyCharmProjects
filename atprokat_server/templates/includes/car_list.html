@@ -1,0 +1,61 @@
+{% load staticfiles %}
+
+<div class="container">
+    {% for car in cars %}
+        <div class="row" style="min-height: 100%; display: flex;">
+            <div class="col-sm-3" style="min-height: 100%; display: flex; align-items: center">
+                <a href="{% url 'main:item' car.id %}">
+                    <img src="{{ car.image.url }}" width="200px">
+                </a>
+            </div>
+            <div class="col-sm-5">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>{{ car.name }}</h2>
+                        <br>
+                        <ul class="list-inline">
+                            <li> АКП - {{ car.transmission }}
+                            </li>
+                            <li> ПРОБЕГ - {{ car.mileage }}км
+                            </li>
+                            <li> ДВЕРИ - {{ car.doors }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-sm-12" align="center">
+                        <table class="text-center" width="100%">
+                            <tr class="table-border-bottom" bgcolor="#d3d3d3">
+                                <td class="table-border-right">1-2 дня</td>
+                                <td class="table-border-right">3-6</td>
+                                <td class="table-border-right">7-14</td>
+                                <td class="table-border-right">15-30</td>
+                                <td class="table-border-right">1-2 мес</td>
+                                <td>Залог</td>
+                            </tr>
+                            <tr bgcolor="#a9a9a9">
+                                <td class="table-border-right">{{ car.days1_2 }}</td>
+                                <td class="table-border-right">{{ car.days3_6 }}</td>
+                                <td class="table-border-right">{{ car.days7_14 }}</td>
+                                <td class="table-border-right">{{ car.days15_30 }}</td>
+                                <td class="table-border-right">{{ car.month1_2 }}</td>
+                                <td>{{ car.deposit }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4" style="margin-top: 2%;">
+                <p> {{ car.text }}</p>
+                <div class="text-center button-style" style="width: 100%">
+                    <form action="{% url 'main:item' car.id %}" target="_blank">
+                        <input type="submit" value="ПОДРОБНЕЕ">
+                        <input type="button" value="ЗАКАЗАТЬ">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+    {% endfor %}
+</div>

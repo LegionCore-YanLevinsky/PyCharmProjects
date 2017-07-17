@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2365ee85-7bfa-4308-bce6-b14a69edb4ad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mtgAtlas$mtgAtlas.coverage" NAME="mtgAtlas Coverage Results" MODIFIED="1497080667824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mtgAtlas.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mtgAtlas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="26" column="101" lean-forward="false" selection-start-line="26" selection-start-column="101" selection-end-line="26" selection-end-column="101" />
+              <folding>
+                <element signature="e#921#1221#0" expanded="false" />
+                <element signature="e#1252#1522#0" expanded="false" />
+                <element signature="e#2074#2308#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cmyk</find>
+      <find>bicu</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mtgAtlas.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtgAtlas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtgAtlas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PyCharmProjects\mtgAtlas\cards" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\mtgAtlas\cards" />
+      <recent name="C:\Users\User\PycharmProjects\mtgAtlas" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.mtgAtlas">
+    <configuration default="false" name="mtgAtlas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mtgAtlas" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mtgAtlas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mtgAtlas" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mtgAtlas" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mtgAtlas" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mtgAtlas" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="mtgAtlas" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mtgAtlas" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mtgAtlas" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.mtgAtlas" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.mtgAtlas" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2365ee85-7bfa-4308-bce6-b14a69edb4ad" name="Default" comment="" />
+      <created>1496992878680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1496992878680</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3480392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/output/16.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/15.jpg" />
+    <entry file="file://$PROJECT_DIR$/prepared_cards/1_3.jpg" />
+    <entry file="file://$PROJECT_DIR$/prepared_cards/63_3.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/18.jpg" />
+    <entry file="file://$PROJECT_DIR$/prepared_cards/10_1.jpg" />
+    <entry file="file://$PROJECT_DIR$/prepared_cards/9_1.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/2.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/3.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/4.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/5.jpg" />
+    <entry file="file://$PROJECT_DIR$/prepared_cards/0_1.jpg" />
+    <entry file="file://$PROJECT_DIR$/prepared_cards/5_1.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/7.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/6.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/28.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/12.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/19.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/23.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/0.jpg" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/zipfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="1569" column="8" lean-forward="false" selection-start-line="1569" selection-start-column="8" selection-end-line="1569" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="276" column="4" lean-forward="false" selection-start-line="276" selection-start-column="4" selection-end-line="276" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepared_cards/0_4.jpg" />
+    <entry file="file://$PROJECT_DIR$/tkMath.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/PIL/FontFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/PIL/ImagePalette.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="113" column="8" lean-forward="false" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="1076" column="8" lean-forward="false" selection-start-line="1076" selection-start-column="8" selection-end-line="1076" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/1471580019/cmath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/colorsys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pyrgb/rgb_function2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="150" column="16" lean-forward="true" selection-start-line="150" selection-start-column="16" selection-end-line="150" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/1471580019/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="5516" column="4" lean-forward="false" selection-start-line="5516" selection-start-column="4" selection-end-line="5516" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/1.tiff" />
+    <entry file="file://$PROJECT_DIR$/cards/111.jpg" />
+    <entry file="file://$PROJECT_DIR$/output/0.tiff" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="162" column="11" lean-forward="false" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#906#910#0" expanded="false" />
+            <element signature="e#955#1077#0" expanded="false" />
+            <element signature="e#1015#1074#0" expanded="false" />
+            <element signature="e#1205#1759#0" expanded="false" />
+            <element signature="e#1205#1269#0" expanded="false" />
+            <element signature="e#1640#1759#0" expanded="false" />
+            <element signature="e#1658#1758#0" expanded="false" />
+            <element signature="e#1790#3186#0" expanded="false" />
+            <element signature="e#1951#2250#0" expanded="false" />
+            <element signature="e#1951#2007#0" expanded="false" />
+            <element signature="e#2128#2208#0" expanded="false" />
+            <element signature="e#2415#2714#0" expanded="false" />
+            <element signature="e#2415#2459#0" expanded="false" />
+            <element signature="e#2535#2672#0" expanded="false" />
+            <element signature="e#2779#3075#0" expanded="false" />
+            <element signature="e#2779#2823#0" expanded="false" />
+            <element signature="e#2899#3033#0" expanded="false" />
+            <element signature="e#3080#3149#0" expanded="false" />
+            <element signature="e#3237#3282#0" expanded="false" />
+            <element signature="e#3590#3621#0" expanded="false" />
+            <element signature="e#3689#3931#0" expanded="false" />
+            <element signature="e#3689#3903#1" expanded="false" />
+            <element signature="e#3934#3935#0" expanded="false" />
+            <element signature="e#4637#4785#0" expanded="false" />
+            <element signature="e#4788#4858#0" expanded="false" />
+            <element signature="e#4969#5039#0" expanded="false" />
+            <element signature="e#5087#5854#0" expanded="false" />
+            <element signature="e#5093#5152#0" expanded="false" />
+            <element signature="e#5702#5768#0" expanded="false" />
+            <element signature="e#5942#6735#0" expanded="false" />
+            <element signature="e#6768#6928#0" expanded="false" />
+            <element signature="e#6965#7034#0" expanded="false" />
+            <element signature="e#7195#7538#0" expanded="false" />
+            <element signature="e#7195#7494#1" expanded="false" />
+            <element signature="e#7568#7885#0" expanded="false" />
+            <element signature="e#7568#7841#1" expanded="false" />
+            <element signature="e#7920#8438#0" expanded="false" />
+            <element signature="e#7920#8397#1" expanded="false" />
+            <element signature="e#8469#8727#0" expanded="false" />
+            <element signature="e#8469#8681#1" expanded="false" />
+            <element signature="e#8730#8800#0" expanded="false" />
+            <element signature="e#8850#9479#0" expanded="false" />
+            <element signature="e#9381#9389#0" expanded="false" />
+            <element signature="e#9498#10019#0" expanded="false" />
+            <element signature="e#9498#9623#1" expanded="false" />
+            <element signature="e#9729#9952#0" expanded="false" />
+            <element signature="e#9746#9849#0" expanded="false" />
+            <element signature="e#9983#10016#0" expanded="false" />
+            <element signature="e#10019#10089#0" expanded="false" />
+            <element signature="e#10214#10731#0" expanded="false" />
+            <element signature="e#10350#10426#0" expanded="false" />
+            <element signature="e#10478#10639#0" expanded="false" />
+            <element signature="e#10792#11312#0" expanded="false" />
+            <element signature="e#10928#11004#0" expanded="false" />
+            <element signature="e#11056#11217#0" expanded="false" />
+            <element signature="e#11312#11382#0" expanded="false" />
+            <element signature="e#11438#11490#0" expanded="false" />
+            <element signature="e#11515#11755#0" expanded="false" />
+            <element signature="e#11549#11565#0" expanded="false" />
+            <element signature="e#11605#11660#0" expanded="false" />
+            <element signature="e#11700#11755#0" expanded="false" />
+            <element signature="e#11789#12434#0" expanded="false" />
+            <element signature="e#11853#12094#0" expanded="false" />
+            <element signature="e#12147#12356#0" expanded="false" />
+            <element signature="e#12437#12507#0" expanded="false" />
+            <element signature="e#12559#12889#1" expanded="false" />
+            <element signature="e#13016#13061#0" expanded="false" />
+            <element signature="e#13380#13399#0" expanded="false" />
+            <element signature="e#13445#13464#0" expanded="false" />
+            <element signature="e#13498#13851#0" expanded="false" />
+            <element signature="e#13716#13796#0" expanded="false" />
+            <element signature="e#13916#13927#0" expanded="false" />
+            <element signature="e#13968#13980#0" expanded="false" />
+            <element signature="e#14011#14823#0" expanded="false" />
+            <element signature="e#14011#14364#1" expanded="false" />
+            <element signature="e#14390#14432#0" expanded="false" />
+            <element signature="e#14598#14653#0" expanded="false" />
+            <element signature="e#14869#15071#0" expanded="false" />
+            <element signature="e#14900#15071#0" expanded="false" />
+            <element signature="e#15102#15201#0" expanded="false" />
+            <element signature="e#15256#15687#0" expanded="false" />
+            <element signature="e#15376#15434#0" expanded="false" />
+            <element signature="e#15559#15667#0" expanded="false" />
+            <element signature="e#15726#16136#0" expanded="false" />
+            <element signature="e#16175#16217#0" expanded="false" />
+            <element signature="e#16251#16454#0" expanded="false" />
+            <element signature="e#16317#16440#0" expanded="false" />
+            <element signature="e#16490#16696#0" expanded="false" />
+            <element signature="e#16490#16587#1" expanded="false" />
+            <element signature="e#16755#17231#0" expanded="false" />
+            <element signature="e#16982#17157#0" expanded="false" />
+            <element signature="e#16982#17036#0" expanded="false" />
+            <element signature="e#17269#17405#0" expanded="false" />
+            <element signature="e#17276#17405#0" expanded="false" />
+            <element signature="e#17450#17764#0" expanded="false" />
+            <element signature="e#17824#18341#1" expanded="false" />
+            <element signature="e#18802#18896#0" expanded="false" />
+            <element signature="e#19058#19183#0" expanded="false" />
+            <element signature="e#19084#19182#0" expanded="false" />
+            <element signature="e#19231#19946#0" expanded="false" />
+            <element signature="e#19231#19538#1" expanded="false" />
+            <element signature="e#19693#19945#0" expanded="false" />
+            <element signature="e#20014#20780#0" expanded="false" />
+            <element signature="e#20014#20251#1" expanded="false" />
+            <element signature="e#20829#20958#0" expanded="false" />
+            <element signature="e#20855#20957#0" expanded="false" />
+            <element signature="e#20988#22371#0" expanded="false" />
+            <element signature="e#20988#21418#1" expanded="false" />
+            <element signature="e#21491#21995#0" expanded="false" />
+            <element signature="e#21738#21995#0" expanded="false" />
+            <element signature="e#22029#22371#0" expanded="false" />
+            <element signature="e#22078#22316#0" expanded="false" />
+            <element signature="e#22403#22793#0" expanded="false" />
+            <element signature="e#22403#22780#1" expanded="false" />
+            <element signature="e#22904#29801#0" expanded="false" />
+            <element signature="e#22904#24643#1" expanded="false" />
+            <element signature="e#24678#24949#0" expanded="false" />
+            <element signature="e#24752#24896#0" expanded="false" />
+            <element signature="e#25003#25205#0" expanded="false" />
+            <element signature="e#25489#27763#0" expanded="false" />
+            <element signature="e#25554#25771#0" expanded="false" />
+            <element signature="e#25554#25610#0" expanded="false" />
+            <element signature="e#25867#27295#0" expanded="false" />
+            <element signature="e#25958#26255#0" expanded="false" />
+            <element signature="e#26298#27295#0" expanded="false" />
+            <element signature="e#26298#26331#0" expanded="false" />
+            <element signature="e#26516#26885#0" expanded="false" />
+            <element signature="e#26626#26885#0" expanded="false" />
+            <element signature="e#26763#26885#0" expanded="false" />
+            <element signature="e#26780#26884#0" expanded="false" />
+            <element signature="e#27086#27243#0" expanded="false" />
+            <element signature="e#27086#27140#0" expanded="false" />
+            <element signature="e#27367#27763#0" expanded="false" />
+            <element signature="e#27655#27763#0" expanded="false" />
+            <element signature="e#27825#28719#0" expanded="false" />
+            <element signature="e#28046#28224#0" expanded="false" />
+            <element signature="e#28046#28108#0" expanded="false" />
+            <element signature="e#28274#28696#0" expanded="false" />
+            <element signature="e#28397#28696#0" expanded="false" />
+            <element signature="e#28397#28456#0" expanded="false" />
+            <element signature="e#28916#29166#0" expanded="false" />
+            <element signature="e#28937#29082#0" expanded="false" />
+            <element signature="e#29235#29343#0" expanded="false" />
+            <element signature="e#29385#29779#0" expanded="false" />
+            <element signature="e#29424#29710#0" expanded="false" />
+            <element signature="e#29553#29710#0" expanded="false" />
+            <element signature="e#29884#31332#0" expanded="false" />
+            <element signature="e#29884#30347#1" expanded="false" />
+            <element signature="e#30409#30506#0" expanded="false" />
+            <element signature="e#30577#30794#0" expanded="false" />
+            <element signature="e#30828#31264#0" expanded="false" />
+            <element signature="e#31061#31178#0" expanded="false" />
+            <element signature="e#31362#31667#0" expanded="false" />
+            <element signature="e#31362#31606#1" expanded="false" />
+            <element signature="e#31728#32411#0" expanded="false" />
+            <element signature="e#31728#32144#1" expanded="false" />
+            <element signature="e#32454#33050#0" expanded="false" />
+            <element signature="e#32454#33037#1" expanded="false" />
+            <element signature="e#33106#33237#0" expanded="false" />
+            <element signature="e#33277#34103#0" expanded="false" />
+            <element signature="e#33277#33518#1" expanded="false" />
+            <element signature="e#33678#33792#0" expanded="false" />
+            <element signature="e#34137#34421#0" expanded="false" />
+            <element signature="e#34137#34371#1" expanded="false" />
+            <element signature="e#34454#34810#0" expanded="false" />
+            <element signature="e#34454#34756#1" expanded="false" />
+            <element signature="e#34860#35504#0" expanded="false" />
+            <element signature="e#34860#35153#1" expanded="false" />
+            <element signature="e#35228#35460#0" expanded="false" />
+            <element signature="e#35322#35372#0" expanded="false" />
+            <element signature="e#35548#36428#0" expanded="false" />
+            <element signature="e#35548#36295#1" expanded="false" />
+            <element signature="e#36464#37017#0" expanded="false" />
+            <element signature="e#36464#36764#1" expanded="false" />
+            <element signature="e#36828#36981#0" expanded="false" />
+            <element signature="e#37048#37216#0" expanded="false" />
+            <element signature="e#37048#37168#1" expanded="false" />
+            <element signature="e#37252#37675#0" expanded="false" />
+            <element signature="e#37252#37418#1" expanded="false" />
+            <element signature="e#37465#37610#0" expanded="false" />
+            <element signature="e#37713#38076#0" expanded="false" />
+            <element signature="e#37713#37947#1" expanded="false" />
+            <element signature="e#38115#38419#0" expanded="false" />
+            <element signature="e#38115#38305#1" expanded="false" />
+            <element signature="e#38479#39589#0" expanded="false" />
+            <element signature="e#38479#39281#1" expanded="false" />
+            <element signature="e#39331#39396#0" expanded="false" />
+            <element signature="e#39445#39554#0" expanded="false" />
+            <element signature="e#39644#39777#0" expanded="false" />
+            <element signature="e#39670#39776#0" expanded="false" />
+            <element signature="e#39833#43018#0" expanded="false" />
+            <element signature="e#39833#41748#1" expanded="false" />
+            <element signature="e#41808#41890#0" expanded="false" />
+            <element signature="e#41980#42404#0" expanded="false" />
+            <element signature="e#42201#42352#0" expanded="false" />
+            <element signature="e#42447#42523#0" expanded="false" />
+            <element signature="e#42567#42811#0" expanded="false" />
+            <element signature="e#42630#42788#0" expanded="false" />
+            <element signature="e#42708#42788#0" expanded="false" />
+            <element signature="e#42914#42969#0" expanded="false" />
+            <element signature="e#43065#44784#0" expanded="false" />
+            <element signature="e#43065#43838#1" expanded="false" />
+            <element signature="e#43982#44548#0" expanded="false" />
+            <element signature="e#44092#44422#0" expanded="false" />
+            <element signature="e#44092#44148#0" expanded="false" />
+            <element signature="e#44591#44732#0" expanded="false" />
+            <element signature="e#44825#46707#0" expanded="false" />
+            <element signature="e#44825#45209#1" expanded="false" />
+            <element signature="e#45339#46031#0" expanded="false" />
+            <element signature="e#45423#45933#0" expanded="false" />
+            <element signature="e#45500#45562#0" expanded="false" />
+            <element signature="e#45636#45892#0" expanded="false" />
+            <element signature="e#46163#46378#0" expanded="false" />
+            <element signature="e#46405#46666#0" expanded="false" />
+            <element signature="e#46550#46625#0" expanded="false" />
+            <element signature="e#46769#47423#0" expanded="false" />
+            <element signature="e#46769#47305#1" expanded="false" />
+            <element signature="e#47480#48580#0" expanded="false" />
+            <element signature="e#47480#47915#1" expanded="false" />
+            <element signature="e#48212#48448#0" expanded="false" />
+            <element signature="e#48260#48394#0" expanded="false" />
+            <element signature="e#48625#49484#0" expanded="false" />
+            <element signature="e#48625#49232#1" expanded="false" />
+            <element signature="e#49292#49361#0" expanded="false" />
+            <element signature="e#49554#52459#0" expanded="false" />
+            <element signature="e#49554#49926#1" expanded="false" />
+            <element signature="e#50110#50292#0" expanded="false" />
+            <element signature="e#50483#50588#0" expanded="false" />
+            <element signature="e#50598#50657#0" expanded="false" />
+            <element signature="e#51741#51774#0" expanded="false" />
+            <element signature="e#52533#53805#0" expanded="false" />
+            <element signature="e#52533#53185#1" expanded="false" />
+            <element signature="e#53916#58251#0" expanded="false" />
+            <element signature="e#53916#55256#1" expanded="false" />
+            <element signature="e#55297#55352#0" expanded="false" />
+            <element signature="e#55449#55765#0" expanded="false" />
+            <element signature="e#55765#55826#0" expanded="false" />
+            <element signature="e#56896#57053#0" expanded="false" />
+            <element signature="e#57104#57179#0" expanded="false" />
+            <element signature="e#57419#58186#0" expanded="false" />
+            <element signature="e#57557#57645#0" expanded="false" />
+            <element signature="e#57785#57851#0" expanded="false" />
+            <element signature="e#59810#59850#0" expanded="false" />
+            <element signature="e#59904#60031#0" expanded="false" />
+            <element signature="e#59982#60031#0" expanded="false" />
+            <element signature="e#60113#60185#0" expanded="false" />
+            <element signature="e#60513#60721#0" expanded="false" />
+            <element signature="e#60949#61114#0" expanded="false" />
+            <element signature="e#60949#61001#0" expanded="false" />
+            <element signature="e#61203#61282#0" expanded="false" />
+            <element signature="e#61319#62000#0" expanded="false" />
+            <element signature="e#61319#61911#1" expanded="false" />
+            <element signature="e#62056#62834#0" expanded="false" />
+            <element signature="e#62056#62783#1" expanded="false" />
+            <element signature="e#62865#63455#0" expanded="false" />
+            <element signature="e#62865#63209#1" expanded="false" />
+            <element signature="e#63320#63429#0" expanded="false" />
+            <element signature="e#63485#63647#0" expanded="false" />
+            <element signature="e#63485#63630#1" expanded="false" />
+            <element signature="e#63706#65329#0" expanded="false" />
+            <element signature="e#63706#64797#1" expanded="false" />
+            <element signature="e#64892#64953#0" expanded="false" />
+            <element signature="e#64990#65051#0" expanded="false" />
+            <element signature="e#65335#65400#0" expanded="false" />
+            <element signature="e#65552#67764#0" expanded="false" />
+            <element signature="e#65552#66798#1" expanded="false" />
+            <element signature="e#66842#66944#0" expanded="false" />
+            <element signature="e#66990#67096#0" expanded="false" />
+            <element signature="e#67282#67372#0" expanded="false" />
+            <element signature="e#67531#67653#0" expanded="false" />
+            <element signature="e#67877#69217#0" expanded="false" />
+            <element signature="e#68028#68243#0" expanded="false" />
+            <element signature="e#68352#68839#0" expanded="false" />
+            <element signature="e#68352#68406#0" expanded="false" />
+            <element signature="e#68652#68838#0" expanded="false" />
+            <element signature="e#69260#69744#0" expanded="false" />
+            <element signature="e#69260#69671#1" expanded="false" />
+            <element signature="e#69793#69983#0" expanded="false" />
+            <element signature="e#69793#69905#1" expanded="false" />
+            <element signature="e#70017#70229#0" expanded="false" />
+            <element signature="e#70264#70478#0" expanded="false" />
+            <element signature="e#70481#70551#0" expanded="false" />
+            <element signature="e#70611#70681#0" expanded="false" />
+            <element signature="e#70725#70802#0" expanded="false" />
+            <element signature="e#70805#70875#0" expanded="false" />
+            <element signature="e#70922#71009#0" expanded="false" />
+            <element signature="e#71039#71503#0" expanded="false" />
+            <element signature="e#71039#71215#1" expanded="false" />
+            <element signature="e#71540#72532#0" expanded="false" />
+            <element signature="e#71540#72211#1" expanded="false" />
+            <element signature="e#72266#72334#0" expanded="false" />
+            <element signature="e#72372#72477#0" expanded="false" />
+            <element signature="e#72599#73805#0" expanded="false" />
+            <element signature="e#73841#73968#0" expanded="false" />
+            <element signature="e#74036#76410#0" expanded="false" />
+            <element signature="e#74036#75550#1" expanded="false" />
+            <element signature="e#75737#76350#0" expanded="false" />
+            <element signature="e#75764#76115#0" expanded="false" />
+            <element signature="e#75795#75983#0" expanded="false" />
+            <element signature="e#76161#76350#0" expanded="false" />
+            <element signature="e#76448#77761#0" expanded="false" />
+            <element signature="e#76448#76886#1" expanded="false" />
+            <element signature="e#77036#77267#0" expanded="false" />
+            <element signature="e#77053#77153#0" expanded="false" />
+            <element signature="e#77191#77267#0" expanded="false" />
+            <element signature="e#77593#77699#0" expanded="false" />
+            <element signature="e#77788#77994#0" expanded="false" />
+            <element signature="e#78022#78230#0" expanded="false" />
+            <element signature="e#78254#79027#0" expanded="false" />
+            <element signature="e#78260#78295#0" expanded="false" />
+            <element signature="e#79200#79533#0" expanded="false" />
+            <element signature="e#79319#79533#0" expanded="false" />
+            <element signature="e#79346#79453#0" expanded="false" />
+            <element signature="e#79564#81962#0" expanded="false" />
+            <element signature="e#79564#80366#1" expanded="false" />
+            <element signature="e#80538#80706#0" expanded="false" />
+            <element signature="e#80555#80661#0" expanded="false" />
+            <element signature="e#80733#80795#0" expanded="false" />
+            <element signature="e#80887#80941#0" expanded="false" />
+            <element signature="e#81034#81617#0" expanded="false" />
+            <element signature="e#81059#81597#0" expanded="false" />
+            <element signature="e#81080#81317#0" expanded="false" />
+            <element signature="e#81175#81317#0" expanded="false" />
+            <element signature="e#81405#81597#0" expanded="false" />
+            <element signature="e#81405#81459#0" expanded="false" />
+            <element signature="e#81689#81749#0" expanded="false" />
+            <element signature="e#81770#81819#0" expanded="false" />
+            <element signature="e#81964#81965#0" expanded="false" />
+            <element signature="e#82023#82367#0" expanded="false" />
+            <element signature="e#82023#82278#1" expanded="false" />
+            <element signature="e#82402#83146#0" expanded="false" />
+            <element signature="e#82402#83060#1" expanded="false" />
+            <element signature="e#83190#83634#0" expanded="false" />
+            <element signature="e#83190#83554#1" expanded="false" />
+            <element signature="e#83665#84185#0" expanded="false" />
+            <element signature="e#83665#84152#1" expanded="false" />
+            <element signature="e#84216#85056#0" expanded="false" />
+            <element signature="e#84216#84587#1" expanded="false" />
+            <element signature="e#84728#84889#0" expanded="false" />
+            <element signature="e#84977#85027#0" expanded="false" />
+            <element signature="e#85059#85129#0" expanded="false" />
+            <element signature="e#85198#85578#0" expanded="false" />
+            <element signature="e#85198#85509#1" expanded="false" />
+            <element signature="e#85618#85856#0" expanded="false" />
+            <element signature="e#85618#85824#1" expanded="false" />
+            <element signature="e#85894#86137#0" expanded="false" />
+            <element signature="e#85894#86107#1" expanded="false" />
+            <element signature="e#86179#86471#0" expanded="false" />
+            <element signature="e#86179#86437#1" expanded="false" />
+            <element signature="e#86517#86768#0" expanded="false" />
+            <element signature="e#86517#86722#1" expanded="false" />
+            <element signature="e#86804#86971#0" expanded="false" />
+            <element signature="e#86804#86907#1" expanded="false" />
+            <element signature="e#87014#87338#0" expanded="false" />
+            <element signature="e#87014#87309#1" expanded="false" />
+            <element signature="e#87382#87690#0" expanded="false" />
+            <element signature="e#87382#87661#1" expanded="false" />
+            <element signature="e#87693#87763#0" expanded="false" />
+            <element signature="e#87854#87911#0" expanded="false" />
+            <element signature="e#87961#88028#0" expanded="false" />
+            <element signature="e#88031#88101#0" expanded="false" />
+            <element signature="e#88163#88496#0" expanded="false" />
+            <element signature="e#88163#88425#1" expanded="false" />
+            <element signature="e#88534#88783#0" expanded="false" />
+            <element signature="e#88534#88727#1" expanded="false" />
+            <element signature="e#88817#88983#0" expanded="false" />
+            <element signature="e#88817#88931#1" expanded="false" />
+            <element signature="e#89017#89184#0" expanded="false" />
+            <element signature="e#89017#89132#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/54.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/50.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/en_1 (1).jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/en_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/en_28 (1).jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/Image (1).jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/Image (2).jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/Image.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/en_28.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepared_cards/0_4.tiff">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepared_cards/71_4.tiff">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepared_cards/77_4.tiff">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepared_cards/78_4.tiff">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mtgAtlas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="26" column="101" lean-forward="false" selection-start-line="26" selection-start-column="101" selection-end-line="26" selection-end-column="101" />
+          <folding>
+            <element signature="e#921#1221#0" expanded="false" />
+            <element signature="e#1252#1522#0" expanded="false" />
+            <element signature="e#2074#2308#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

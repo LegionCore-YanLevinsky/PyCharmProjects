@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    {% for book in books %}
+        <div class='row thumbnail'>
+            <div class='col-md-2'>
+                <div class="btn-group-vertical">
+                    <a href="{% url 'main:book' book.id %}">
+                        <img src="
+                                {% if book.image %}{{ book.image.url }}
+                                {% else %}{% static 'imgs/dummy.jpg' %}
+                                {% endif %}"></a>
+                    <a href="{% url 'main:book' book.id %}" class='btn btn-primary'><i class='fa fa-bars'> Подробнее</i></a>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <a href="{% url 'main:book' book.id %}">{{ book.title|truncatechars:"32" }}</a>
+                {{ book.author }}
+                <br>
+                Жанры: {% for genre in book.genre.all %} {{ genre }} {% endfor %}
+                <p>{{ book.description|linebreaksbr|truncatechars:"256" }}</p>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}

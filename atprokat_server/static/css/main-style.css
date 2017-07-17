@@ -1,0 +1,132 @@
+@font-face {
+    font-family: CircleBold;
+    src: url('/static/fonts/Circe/Circe-Bold.otf');
+}
+
+body {
+    font-family: CircleBold;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.accent-color {
+    color: darkorange;
+}
+
+.menu-center-vertical {
+    min-height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.overlay-menu {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.navigation-background {
+    height: 500px;
+    background: url("/static/images/images-main.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navigation-menu {
+    width: 100%;
+    text-align: center;
+}
+
+.navigation-menu li {
+    float: none;
+    display: inline-block;
+}
+
+.navigation-menu a:hover {
+    color: darkorange;
+}
+
+.navigation-menu-color-blue {
+    background-color: #66afe9;
+}
+
+.navigation-menu-color-gray {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.dropdown .dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.dropdown .dropdown-menu a:hover {
+    color: darkorange;
+}
+
+.active {
+    color: darkorange;
+}
+
+.inactive {
+    color: black;
+}
+
+.header {
+    padding: 1%
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer {
+    color: white;
+    background-color: #0f0f0f;
+    padding: 2%;
+}
+
+.four-images {
+    padding: 1%;
+}
+
+.table-border-bottom {
+    border-bottom: 1px solid black
+}
+
+.table-border-right {
+    border-right: 1px solid black
+}
+
+.footer ul {
+    list-style-type: none;
+    column-count: 2;
+    text-align: start
+}
+
+.footer a {
+    color: white;
+}
+
+.footer ul a:hover {
+    color: darkorange;
+}
+
+.button-style input {
+    margin: 4%;
+    width: 40%;
+    color: white;
+    background-color: #66afe9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.button-style input:hover {
+    background-color: darkorange;
+}

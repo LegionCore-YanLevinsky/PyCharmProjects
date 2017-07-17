@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <form method="post" action="{% url 'main:registration' %}" class="thumbnail">
+        {% csrf_token %}
+        <table class="table">
+            {{ form.as_table }}
+        </table>
+        <input type="submit" value="sign up" class="btn btn-primary">
+    </form>
+{% endblock %}

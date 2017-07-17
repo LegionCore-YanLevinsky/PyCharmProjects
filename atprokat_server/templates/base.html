@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> {{ title }}</title>
+    <!-- Bootstrap -->
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+    <link href="{% static 'css/main-style.css' %}" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="{% static 'downloaded/html5shiv.js' %}"></script>
+    <script src="{% static 'downloaded/respond.min.js' %}"></script>
+    <!--[endif]-->
+</head>
+<body>
+
+<!--Header-->
+{% include 'includes/header.html' %}
+
+<!--Navigation-->
+{% block navigation %}
+    {% include 'includes/navigation_with_background.html' %}
+{% endblock %}
+
+{% block content %}
+    <!--Buttons-->
+    {% include 'includes/three_images.html' %}
+
+    <!--Text-->
+    {% include 'includes/text.html' %}
+
+    <!--CarList-->
+    {% include 'includes/car_list.html' %}
+
+    <!--What to do-->
+    {#TODO#}
+    {% include 'includes/four_images.html' %}
+
+    <!--Map-->
+    {% include 'includes/news_and_map.html' %}
+{% endblock %}
+
+<!--Footer-->
+{% include 'includes/footer.html' %}
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{% static 'downloaded/jquery.js' %}"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{% static 'js/bootstrap.js"' %}"></script>
+{#<script src=" {% url 'https://maps.googleapis.com/maps/api/js?callback=myMap' %}"></script>#}
+
+</body>
+</html>

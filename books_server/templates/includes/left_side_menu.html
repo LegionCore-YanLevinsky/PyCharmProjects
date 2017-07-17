@@ -1,0 +1,30 @@
+<div id="accordion" class="panel-group">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#genres" data-parent="#accordion" data-toggle="collapse">по Жанрам:</a>
+            </h4>
+        </div>
+        <div class="panel-collapse collapse in" id="genres">
+            <ul class="panel-body">
+                {% for genre in genres %}
+                    <li><a href="{% url 'main:books_by_genre' genre.id %}">{{ genre }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#authors" data-parent="#accordion" data-toggle="collapse">по Авторам:</a>
+            </h4>
+        </div>
+        <div class="panel-collapse collapse" id="authors">
+            <ul class="panel-body">
+                {% for author in authors %}
+                    <li><a href="{% url 'main:books_by_author' author.id %}">{{ author }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
